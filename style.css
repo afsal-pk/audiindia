@@ -1,0 +1,470 @@
+body {
+  margin: 0;
+}
+.topbar {
+  width: 50%;
+  height: 85px;
+  float: left;
+}
+.topbar-left {
+  width: 50%;
+  height: 85px;
+  background-color: #ffffff;
+  float: left;
+}
+.logo {
+  width: 10%;
+  margin-top: 20px;
+  margin-left: 100px;
+  float: left;
+  cursor: pointer;
+}
+.menu ul li {
+  list-style-type: none;
+  float: left;
+  padding: 15px;
+  color: #cfcfcf;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.search i {
+  position: absolute;
+  margin-top: 35px;
+  margin-left: 40%;
+}
+.car-background {
+  width: 100%;
+  height: 800px;
+  position: relative;
+}
+.e-tron {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  object-position: center;
+}
+.text {
+  position: absolute;
+  top: 200px;
+  right: 50px;
+  font-size: 40px;
+  text-align: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.luxuary {
+  position: absolute;
+  top: 330px;
+  right: 50px;
+  font-size: 20px;
+  text-align: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.know-more {
+  position: absolute;
+  top: 430px;
+  right: 50px;
+  font-size: 20px;
+  text-align: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+.know-more:hover {
+  background-color: #d9d9d9;
+}
+.collection {
+  cursor: pointer;
+}
+.collection ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 30px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.model {
+  border-bottom: solid;
+}
+
+.common {
+  display: flex;
+  overflow: auto;
+}
+
+.etron-car {
+  width: 230px;
+  cursor: pointer;
+}
+.forth-pic {
+  height: 100px;
+  display: block;
+  margin-top: 50px;
+}
+
+.name {
+  margin-top: 0px;
+  padding-top: 0px;
+  float: left;
+  font-weight: normal;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.name-1 {
+  float: left;
+  margin-top: 0px;
+  margin-left: 70px;
+}
+.name-2 {
+  float: left;
+  margin-top: 0px;
+  margin-left: 90px;
+}
+.name-3 {
+  float: left;
+  margin-top: 0px;
+  margin-left: 110px;
+}
+.middle {
+  width: 100%;
+  height: 800px;
+  background-color: red;
+  margin-top: 20px;
+  position: relative;
+}
+.middle-pic {
+  width: 100%;
+  height: 900px;
+  object-fit: cover;
+  object-position: center;
+  float: left;
+}
+.box {
+  width: 600px;
+  height: 300px;
+  margin-top: 100px;
+  margin-left: 50px;
+  background-color: white;
+  position: absolute;
+}
+.text-home {
+  position: absolute;
+  margin-left: 50px;
+  font-size: 40px;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+.electric {
+  position: absolute;
+  top: 90px;
+  margin-left: 50px;
+  font-size: 15px;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #cfcfcf;
+}
+.etron-hub {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  float: left;
+}
+.etron-hub:hover {
+  opacity: 0.5;
+}
+
+.futureatt {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  border: solid black;
+  float: left;
+}
+.futureatt:hover {
+  opacity: 0.5;
+}
+
+.ar-pic {
+  margin-top: 150px;
+  margin-left: 150px;
+  width: 40%;
+  float: left;
+}
+.ar-button {
+  width: 40%;
+  height: 550px;
+  margin-left: 800px;
+  margin-top: 250px;
+}
+.ar-text {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 200px;
+  font-size: 40px;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+.etron-button {
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 50px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  float: left;
+}
+.etron-hub:hover {
+  opacity: 0.5;
+}
+.e-sport {
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 150px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  border: solid black;
+  float: left;
+}
+.e-sport:hover {
+  opacity: 0.5;
+}
+.ar {
+  width: 100%;
+  height: 730px;
+  background-color: black;
+  margin-top: 200px;
+  position: relative;
+  float: left;
+}
+
+.connect-app {
+  width: 40%;
+  height: 550px;
+  margin-left: 80px;
+  margin-top: 250px;
+  float: left;
+}
+.app-text {
+  position: absolute;
+  margin-left: 50px;
+  font-size: 30px;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.myaudi-button {
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 50px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  float: left;
+  border: white solid;
+}
+
+.shop {
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 260px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  border: solid white;
+  float: left;
+  color: white;
+}
+
+.app-pic {
+  margin-top: 0px;
+  margin-left: 132px;
+  width: 45%;
+}
+.your-audi {
+  margin-left: 50px;
+  margin-top: 1000px;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.test-drive{
+  width:400px;
+  margin-left: 50px;
+  float: left;
+}
+.service{
+  width:380px;
+  margin-left: 50px;
+  
+}
+.list ul li{
+  list-style-type: none;
+  float: left;
+  margin-left:10px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+.bottom-bar{
+  width: 100%;
+  height: 800px;
+  background-color: black;
+  margin-top: 200px;
+}
+
+.bottom-column{
+  text-align: start;
+}
+.bottom-column ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 0;
+  padding-right: 100px;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 18px;
+  color:white;
+  margin-left: 80px;
+  margin-top: 50px;
+
+  padding-bottom: 10px;
+  
+}
+.product-list{
+  float: left;
+  cursor: pointer;
+}
+
+.product-list li{
+  list-style-type: none;
+  margin-left: 70px;
+  padding: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  
+}
+.used{
+  float: left;
+}
+
+.used li{
+  list-style-type: none;
+  margin-left: 90px;
+  padding: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+.customer-area{
+  float: left;
+}
+
+.customer-area li{
+  list-style-type: none;
+  margin-left: 95px;
+  padding: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  
+}
+
+.innovation{
+  float: left;
+}
+.innovation li{
+  list-style-type: none;
+  margin-left: 90px;
+  padding: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+.social{
+  float: left;
+  text-align: end;
+  margin-left: 1000px;
+}
+.social li{
+  list-style-type: none;
+  margin-left: 10px;
+  padding: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  display: inline-block;
+  
+  
+}
+.line{
+  width: 90%;
+  margin-left: 100px;
+  float: left;
+  opacity: 0.7;
+ 
+}
+
+.bottom-line{
+  text-align: start;
+}
+.bottom-line ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 12px;
+  color:white;
+  margin-left: 60px;
+  margin-top: 50px;
+  padding-bottom: 10px;
+  
+}
+.about{
+  float: left;
+  margin-left: 100px;
+  margin-right: 150px;
+  font-size: 12px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
